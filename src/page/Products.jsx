@@ -95,7 +95,7 @@ function Products() {
             <div className="grid-produk">
 
                 {produk.map((produk, index) => (
-                                  <div className="kartu-produk">
+                                  <div key={index} className="kartu-produk">
                     <div className="produk-img">
                         <img
                             src={produk.image}

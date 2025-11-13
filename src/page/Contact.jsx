@@ -6,7 +6,7 @@ function Contact() {
             <div className="konten-kontak">
                 <div style={{ display: 'flex', justifyContent: "center" }}>
                     <h2
-                        className="judul-section"
+                        className="judul-section" style={{  marginTop: '40px' }}
                     >
                         Hubungi Kami
                     </h2>
