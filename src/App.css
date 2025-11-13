@@ -739,8 +739,10 @@ textarea {
 }
 
 .bagian-footer {
-  /*background-color: #121418;*/
+  background-color: #121418;
   margin-top: 50px;
+  /*position: absolute;
+  bottom: 0;*/
   color: #ccc;
   text-align: center;
 }
@@ -808,7 +810,7 @@ textarea {
 
 .hak-cipta {
   border-top: 1px solid rgba(255, 255, 255, 0.05);
-  padding-top: 15px;
+  padding-block: 20px;
   font-size: 14px;
   color: #888;
   text-align: center;
