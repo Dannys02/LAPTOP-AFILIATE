@@ -8,7 +8,7 @@ function Contact() {
                     <h2
                         className="judul-section" style={{  marginTop: '40px' }}
                     >
-                        Hubungi Kami
+                        <span>Hubungi Kami</span>
                     </h2>
                 </div>
                 <div className="info-kontak">

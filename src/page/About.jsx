@@ -14,7 +14,7 @@ function About() {
               <p>Kami adalah mitra terpercaya Anda dalam memilih laptop yang sempurna sesuai kebutuhan dan anggaran. Dengan ulasan mendalam dan rekomendasi jujur, kami membantu ribuan orang membuat keputusan pembelian yang tepat.</p>
               
               <div className="bungkus-a-tentang">
-                <Link to="/aboutDetail">
+                <Link className="Link" to="/aboutDetail">
                 <span>Jelajahi lebih detail</span>
                 </Link>
               </div>

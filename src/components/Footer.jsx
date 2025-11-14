@@ -33,8 +33,8 @@ function Footer() {
                         </li>
                     </ul>
                 </div>
-                <div className="kolom-footer">
-                    <h3 className="judul-kolom">Kontak Kami</h3>
+                <div className="kolom-footer" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                    <h3 className="judul-kolom" style={{ textAlign: 'center' }}>Kontak Kami</h3>
                     <ul className="daftar-footer">
                         <li>Email: info@dannys.com</li>
                         <li>Telepon: +62 123 456 789</li>

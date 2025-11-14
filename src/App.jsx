@@ -12,18 +12,19 @@ import Products from "./page/Products";
 import About from "./page/About";
 import Contact from "./page/Contact";
 import AboutDetail from "./page/AboutDetail";
+import NavbarAbout from "./components/NavbarAbout";
 
 function App() {
     const [count, setCount] = useState(0);
 
     return (
         <>
-            <Navbar />
             <Routes>
                 <Route
                     path="/"
                     element={
                         <>
+                            <Navbar />
                             <Hero />
                             <Category />
                             <Products />
@@ -33,7 +34,13 @@ function App() {
                     }
                 />
 
-                <Route path="/AboutDetail" element={<AboutDetail />} />
+                <Route path="/AboutDetail"
+                    element={
+                        <>
+                            <NavbarAbout />
+                            <AboutDetail />
+                        </>
+                    } />
             </Routes>
             <Footer />
         </>
