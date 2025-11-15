@@ -14,7 +14,7 @@ function Hero() {
     return (
         <section id="beranda" className="bagian-hero">
             <div className="container-hero">
-                <h1 className="judul-hero">
+                <h1 className="judul-hero font-bold">
                     Temukan Laptop Terbaik untuk Kebutuhan Anda
                 </h1>
                 <p className="deskripsi-hero">

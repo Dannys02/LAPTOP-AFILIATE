@@ -8,12 +8,15 @@
 }
 
 body {
-  font-family: "Poppins", Arial, sans-serif;
   background-color: #0f1116;
   color: #e0e0e0;
   line-height: 1.6;
   position: relative;
   overflow-x: hidden;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .navigasi-utama {
@@ -26,7 +29,7 @@ body {
   position: fixed;
   top: 50px;
   left: 50%;
-  width: 50%;
+  width: 70%;
   border-radius: 40px;
   transform: translate(-50%, -50%);
   box-shadow: 0 0 20px rgba(0, 123, 255, 0.1);
@@ -117,7 +120,7 @@ body {
   border-radius: 30px;
   font-weight: 600;
   transition: all 0.3s;
-  box-shadow: 0 0 20px rgba(0, 123, 255, 0.3);
+  box-shadow: 0 0 20px #008ee5;
 }
 
 .tombol-utama span {
@@ -297,6 +300,7 @@ body {
   font-size: 30px;
   color: #ffffff;
   width: fit-content;
+  font-weight: bold;
   padding-bottom: 5px;
 }
 
@@ -439,6 +443,7 @@ body {
   border-radius: 9999px;
   border: none;
   font-size: 1rem;
+  color: black;
   transition: background 0.3s, color 0.3s;
   background: white;
 }
@@ -735,8 +740,6 @@ textarea {
 .bagian-footer {
   background-color: #121418;
   margin-top: 50px;
-  /*position: absolute;
-  bottom: 0;*/
   color: #ccc;
   text-align: center;
 }
@@ -760,6 +763,18 @@ textarea {
   font-size: 18px;
   margin-bottom: 15px;
   color: #ffffff;
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.judul-kolom::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  border-radius: 5px;
+  width: 35%;
 }
 
 .daftar-footer {
@@ -767,14 +782,10 @@ textarea {
   width: fit-content;
 }
 
-.daftar-footer li {
-  margin-bottom: 10px;
-}
-
 .daftar-footer a {
   position: relative;
-  padding-bottom: 5px;
   color: #b5b5b5;
+  width: fit-content;
   text-decoration: none;
   transition: color 0.3s;
 }

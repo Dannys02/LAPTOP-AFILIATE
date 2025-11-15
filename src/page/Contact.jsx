@@ -20,7 +20,7 @@ function Contact() {
                     <div className="bungkus-info">
                         <div className="info-email">
                             <i class="fa fa-envelope"></i>{" "}
-                            websuperdanzz@email.com
+                            info@dannys.com
                         </div>
 
                         <div className="info-telepon">
